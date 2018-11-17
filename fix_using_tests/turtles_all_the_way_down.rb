@@ -10,9 +10,9 @@ end
 
 def turtle_traits(turtles)
   turtles.map do |turtle|
-  
+
      if turtle[:traits].class != Array
-       Array.new(1, turtle[:traits])
+       [turtle[:traits])]
      else
        turtle[:traits]
      end
