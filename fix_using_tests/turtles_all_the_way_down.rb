@@ -12,7 +12,7 @@ def turtle_traits(turtles)
   turtles.map do |turtle|
 
      if turtle[:traits].class != Array
-       [turtle[:traits])]
+       [turtle[:traits]]
      else
        turtle[:traits]
      end
